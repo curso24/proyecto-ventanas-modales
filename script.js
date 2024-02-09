@@ -1,4 +1,4 @@
-//Selección de elementos del DOM:
+// elementos del DOM:
 
 const modal = document.querySelector('.modal')
 
@@ -16,7 +16,7 @@ element.classList.remove(nombreClase)
 
 */
 
-// Funciones de apertura y cierre del modal:
+// Funciones apertura y cierre:
 
 const openModal = function () {
   modal.classList.remove('hidden')
@@ -30,7 +30,7 @@ const closeModal = function () {
   overlay.classList.add('hidden')
 }
 
-//Event Listeners: Se agregan event listeners a los botones para abrir el modal
+//Event Listeners: Añadimos event listeners a los botones para abrir el modal
 
 // iteración sobre botones para abrir modal y control de cierre con teclado
 
